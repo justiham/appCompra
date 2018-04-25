@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card *ngFor="let item of lista">
+    <img [src]="item.image"/>
+    <ion-card-content>
+      <ion-card-title>
+        {{item.titulo}}
+      </ion-card-title>
+      <p>
+        {{item.descricao}}
+      </p>
+      <button ion-button block (click)="abreDetalhe(item)">Mais</button>
+      <button ion-button block color="secondary">{{item.valorTxt}}</button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

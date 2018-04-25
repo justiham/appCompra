@@ -1,0 +1,60 @@
+{
+  "cursos": [
+    {
+      "id": 2,
+      "titulo": "Curso de Andoid Rodrigo",
+      "descricao": "Aprenda Ionic na prática",
+      "image": "https://ionicframework.com/img/meta/ionic-framework-og.png",
+      "valorTxt": "R$ 10.60",
+      "valor": 10.6,
+      "aulas": [
+        {
+          "id": 1,
+          "ordem": 1,
+          "titulo": "Introdução ao curso",
+          "tempo": "10:00",
+          "video": "https://www.youtube.com/embed/u9Mv98Gr5pY"
+        },
+        {
+          "id": 2,
+          "ordem": 2,
+          "titulo": "Realizando a instalação",
+          "tempo": "22:00",
+          "video": "https://www.youtube.com/embed/AzTQiHeU33c"
+        }
+      ]
+    },
+    {
+      "titulo": "Curso de Ionic 66666666",
+      "descricao": "Aprenda Ionic na prática",
+      "image": "https://ionicframework.com/img/meta/ionic-framework-og.png",
+      "valorTxt": "R$ 10.60",
+      "valor": 10.6,
+      "aulas": [
+        {
+          "id": 1,
+          "ordem": 1,
+          "titulo": "Introdução ao curso",
+          "tempo": "10:00",
+          "video": "https://www.youtube.com/embed/u9Mv98Gr5pY"
+        },
+        {
+          "id": 2,
+          "ordem": 2,
+          "titulo": "Realizando a instalação",
+          "tempo": "22:00",
+          "video": "https://www.youtube.com/embed/AzTQiHeU33c"
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "usuarios": [
+    {
+      "name": "Rodrigo Teixeira",
+      "email": "teste",
+      "password": "123",
+      "id": 1
+    }
+  ]
+}
