@@ -24,30 +24,30 @@ export class HomePage {
 			console.log('Erro' + erro.message);
 		});
 
-		let data:ICurso = {
-			"id": 2,
-			"titulo": "Curso de Ionic",
-			"descricao": "Aprenda Ionic na prática",
-			"image": "https://ionicframework.com/img/meta/ionic-framework-og.png",
-			"valorTxt": "R$ 10.60",
-			"valor": 10.60,
-			"aulas": [
-			{
-				"id": 1,
-				"ordem": 1,
-				"titulo": "Introdução ao curso",
-				"tempo": "10:00",
-				"video": "https://www.youtube.com/embed/u9Mv98Gr5pY"
-			},
-			{
-				"id": 2,
-				"ordem": 2,
-				"titulo": "Realizando a instalação",
-				"tempo": "22:00",
-				"video": "https://www.youtube.com/embed/AzTQiHeU33c"
-			}
-			]
-		}
+		// let data:ICurso = {
+		// 	"id": 2,
+		// 	"titulo": "Curso de Ionic",
+		// 	"descricao": "Aprenda Ionic na prática",
+		// 	"image": "https://ionicframework.com/img/meta/ionic-framework-og.png",
+		// 	"valorTxt": "R$ 10.60",
+		// 	"valor": 10.60,
+		// 	"aulas": [
+		// 	{
+		// 		"id": 1,
+		// 		"ordem": 1,
+		// 		"titulo": "Introdução ao curso",
+		// 		"tempo": "10:00",
+		// 		"video": "https://www.youtube.com/embed/u9Mv98Gr5pY"
+		// 	},
+		// 	{
+		// 		"id": 2,
+		// 		"ordem": 2,
+		// 		"titulo": "Realizando a instalação",
+		// 		"tempo": "22:00",
+		// 		"video": "https://www.youtube.com/embed/AzTQiHeU33c"
+		// 	}
+		// 	]
+		// }
 
 		// this.cursoProvider.addTeste(data).subscribe( res => {
 		// 	console.log(res);
